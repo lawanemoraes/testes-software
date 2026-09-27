@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+/* ---- BOTÃO COM EFEITO CSS ---- */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.08);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* ---- MENSAGEM ---- */
+#mensagem {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.erro {
+  color: #d9534f;
+}
+
+.sucesso {
+  color: #28a745;
+}
